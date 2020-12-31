@@ -9,6 +9,8 @@ tInv_token = ''
 telegram_token = ''
 my_chat_id = ''
 
+print('START')
+
 
 def set_config():
     global tInv_token
