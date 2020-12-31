@@ -16,7 +16,6 @@ python-telegram-bot==13.1
 pytz==2020.4
 requests==2.25.1
 six==1.15.0
-tinvest==2.3.3
 tornado==6.1
 typer==0.3.2
 typing-extensions==3.7.4.3
