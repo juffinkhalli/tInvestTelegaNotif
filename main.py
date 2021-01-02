@@ -16,15 +16,13 @@ def set_config():
     global tInv_token
     global telegram_token
     global my_chat_id
-    if os.environ.get('HEROKU', False):
-        tInv_token = os.getenv('tInv_token')
-        telegram_token = os.getenv('telegram_token')
-        my_chat_id = os.getenv('my_chat_id')
-    else:
-        # tInv_token = config.tInv_token
-        # telegram_token = config.telegram_token
-        # my_chat_id = config.my_chat_id
-        print('Config installed')
+    tInv_token = os.getenv('tInv_token')
+    telegram_token = os.getenv('telegram_token')
+    my_chat_id = os.getenv('my_chat_id')
+    # tInv_token = config.tInv_token
+    # telegram_token = config.telegram_token
+    # my_chat_id = config.my_chat_id
+    print('Config installed')
 
 
 def getPortfolio():
